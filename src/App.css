@@ -1,0 +1,37 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.nums {
+  display: flex;
+  width: 220px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.calculator {
+  display: flex;
+}
+
+.nums > span {
+  margin-bottom: 10px;
+}
+
+.operation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70px;
+  padding: 20px 0 0 10px;
+}
+
+.operation > span {
+  margin: 0 0 10px 0;
+}
+
+.results {
+  padding: 20px;
+}
